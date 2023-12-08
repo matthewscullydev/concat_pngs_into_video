@@ -9,7 +9,7 @@ cd /directory/with/pictures
 
 mkdir already_converted;
 
-mv $(ls | grep -E '*\.png') already_converted
+mv $(ls | grep -E "*\.png") already_converted
 
 
 png_rename_files_in_directory /directory/with/pictures
