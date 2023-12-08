@@ -8,6 +8,7 @@ cd /directory/with/pictures
 ## move pngs to seperate folder before using script
 
 mkdir already_converted;
+
 mv $(ls | grep *.png) already_converted
 
 
