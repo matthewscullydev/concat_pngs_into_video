@@ -6,6 +6,8 @@ USAGE
 cd /directory/with/pictures
 
 ## move pngs to seperate folder before using script
+
+mkdir currently_pngs
 mv $(ls | grep *.png) currently_pngs
 
 
