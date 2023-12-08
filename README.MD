@@ -3,9 +3,15 @@
 
 USAGE
 
-png_rename_files_in_directory /path/to/directory/
+cd /directory/with/pictures
 
-shuffle_files /path/to/directory/
+## move pngs to seperate folder before using script
+mv $(ls | grep *.png) currently_pngs
+
+
+png_rename_files_in_directory /directory/with/pictures
+
+shuffle_files /directory/with/pictures
 
 enter video output name
 
