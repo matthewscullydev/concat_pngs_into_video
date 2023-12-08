@@ -1,4 +1,4 @@
-### readme
+### Png into MKV Slideshow Script
 ---
 
 USAGE
