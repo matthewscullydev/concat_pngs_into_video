@@ -7,8 +7,8 @@ cd /directory/with/pictures
 
 ## move pngs to seperate folder before using script
 
-mkdir currently_pngs
-mv $(ls | grep *.png) currently_pngs
+mkdir already_converted;
+mv $(ls | grep *.png) already_converted
 
 
 png_rename_files_in_directory /directory/with/pictures
